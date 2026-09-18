@@ -7,8 +7,8 @@
 [![Status](https://img.shields.io/badge/Status-Em%20In%C3%ADcio%20de%20Desenvolvimento-orange.svg)](#-status-do-projeto-e-cronograma)
 
 > **Projeto de Iniciação Científica e Tecnológica (PIBICT — Bolsa CEETEPS)**  
-> **Curso:** CST em Ciência de Dados — Faculdade de Tecnologia da Baixada Santista Rubens Lara (Fatec Baixada Santista) — CEETEPS  
-> **Bolsista:** Giulia Dias Granado de Marques  
+> **Curso:** Ciência de Dados — Faculdade de Tecnologia da Baixada Santista Rubens Lara (Fatec Baixada Santista) — CEETEPS  
+> **Pesquisadora:** Giulia Dias Granado de Marques  
 > **Orientador:** Prof. Dr. João Paulo Ferreira de Mello  
 
 ---
