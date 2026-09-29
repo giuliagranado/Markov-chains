@@ -12,6 +12,7 @@
 > **Orientador:** Prof. Dr. João Paulo Ferreira de Mello  
 
 ---
+*For the English version of the README ->* [click here!](https://github.com/giuliagranado/Markov-chains/blob/main/README_english.md)
 
 ## 📌 Sobre o Projeto
 
