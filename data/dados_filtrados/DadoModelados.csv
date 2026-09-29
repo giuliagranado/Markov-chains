@@ -1,4 +1,4 @@
-Ano;Complexo Portuário;Código da instalação;Tipo de Terminal;Navegação da Atracação;ID Atracação;IMO da embarcação;Data da Chegada;Data da Atracação;Data do Início da Operação;Data da Desatracação;Perfil da Carga;Nomenclatura Simplificada;Total de Atracações;;Dt_Atracação - Dt_Chegada;Duração (dias)
+Ano;Complexo Portuário;Código da instalação;Tipo de Terminal;Navegação da Atracação;ID Atracação;IMO da embarcação;Data da Chegada;Data da Atracação;Data do Início da Operação;Data da Desatracação;Perfil da Carga;Nomenclatura Simplificada;Total de Atracações;;Dt_Atracação - Dt_Chegada;Duracao_dias
 2024;Santos;BRSSZ;Público;Longo Curso;1418659;9149512;01/01/2024 07:58;02/01/2024 16:00;02/01/2024 16:26;04/01/2024 06:10;Granel Líquido e Gasoso;Produtos Químicos Orgânicos;1;;32:02:00;1,33
 2024;Santos;BRSSZ;Público;Longo Curso;1418637;9230995;01/01/2024 09:00;01/01/2024 11:30;01/01/2024 11:35;04/01/2024 04:10;Granel Líquido e Gasoso;Preparações De Frutas;1;;2:30:00;0,10
 2024;Santos;BRSSZ;Público;Cabotagem;1418739;9660358;01/01/2024 12:30;04/01/2024 12:10;04/01/2024 21:42;05/01/2024 14:20;Granel Líquido e Gasoso;Petróleo E Derivados (Sem Óleo Bruto);1;;71:40:00;2,99
