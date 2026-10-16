@@ -7,11 +7,10 @@
 [![Status](https://img.shields.io/badge/Status-Em%20In%C3%ADcio%20de%20Desenvolvimento-orange.svg)](#-status-do-projeto-e-cronograma)
 
 > **Projeto de Iniciação Científica e Tecnológica (PIBICT — Bolsa CEETEPS)**  
-> **Curso:** Ciência de Dados — Faculdade de Tecnologia da Baixada Santista Rubens Lara (Fatec Baixada Santista) — CEETEPS  
+> **Curso:** Ciência de Dados - Fatec Baixada Santista Rubens Lara - CEETEPS  
 > **Pesquisadora:** Giulia Dias Granado de Marques  
 > **Orientador:** Prof. Dr. João Paulo Ferreira de Mello  
 
----
 *For the English version of the README ->* [click here!](https://github.com/giuliagranado/Markov-chains/blob/main/README_english.md)
 
 ## 📌 Sobre o Projeto
@@ -21,8 +20,6 @@ Este repositório reúne os códigos, dados históricos e documentações do pro
 O Porto de Santos é o maior complexo portuário da América Latina e enfrenta gargalos operacionais no fluxo de atracação que geram custos significativos (*demurrage* e perda de eficiência). A pesquisa combina **Cadeias de Markov** e **Teoria de Filas** aplicadas aos registros individuais de atracação disponibilizados publicamente pela **ANTAQ** (Agência Nacional de Transportes Aquaviários) para estimar probabilidades de transição entre estados de congestionamento e prever o tempo médio de espera no curto prazo (1 a 3 semanas).
 
 *Nota: O projeto foi contemplado com bolsa de Iniciação Científica pelo **CEETEPS (Centro Paula Souza)** e segue o plano de trabalho detalhado elaborado para a pesquisa.*
-
----
 
 ## 🎯 Objetivos
 
@@ -35,8 +32,6 @@ Modelar e simular o tempo de espera dos navios para atracação no Porto de Sant
 - **Construção da Matriz de Transição:** Estimação das probabilidades de transição ($p_{ij}$) a partir de 80% do conjunto de dados (treinamento).
 - **Simulação Computacional:** Implementação em Python para cálculo do Estado Estável (*Steady State*) e geração de matrizes de progressão temporal.
 - **Validação e Sensibilidade:** Avaliação do modelo em 20% dos dados (teste) utilizando o Erro Médio Absoluto Percentual (**MAPE**) e análise de sensibilidade sob variações de demanda e capacidade.
-
----
 
 ## 🛠 Metodologia e Pipeline de Dados
 
@@ -54,20 +49,19 @@ graph TD
 - **Linguagem:** Python 3.10+
 - **Manipulação e Análise de Dados:** `pandas`, `numpy`
 - **Visualização Gráfica:** `matplotlib`, `seaborn`
-- **Modelagem & Simulação:** Scripts customizados em Python e Jupyter Notebooks
+- **Modelagem & Simulação:** Scripts customizados em Python
 
----
 
 ## 📂 Estrutura do Repositório
-
 ```text
 .
-├── data/       # Conjunto de dados históricos da ANTAQ e documentações estatísticas
-├── docs/       # Projeto de pesquisa, relatórios científicos e apresentações
-├── src/        # Scripts em Python para tratamento, modelagem e simulação (em dev)
+├── data/       # Conjunto de dados da ANTAQ e documentações estatísticas
+├── docs/       # Projeto de pesquisa, anotações, relatórios científicos e apresentações
+├── script python/     # Scripts em Python para tratamento, modelagem e simulação 
 ├── trash/      # Rascunhos, análises exploratórias temporárias e testes de gráficos
 ├── LICENSE     # Licença de código aberto (MIT)
-└── README.md   # Documentação principal do projeto
+├── README.md   # Documentação principal do projeto
+└── README_english.md   # Documentação em  inglês do projeto
 ```
 
 ---
@@ -122,27 +116,13 @@ O cronograma de execução da bolsa de Iniciação Científica do CEETEPS abrang
 ### Checklist do Repositório
 - [x] Elaboração da proposta de pesquisa e concessão da bolsa CEETEPS.
 - [x] Estruturação do repositório no GitHub.
-- [/] Revisão bibliográfica e organização inicial da base de dados da ANTAQ na pasta `data/`.
-- [ ] Análise exploratória detalhada e clustering dos estados operacionais ($s0, s1, \dots$).
+- [x] Revisão bibliográfica e organização inicial da base de dados da ANTAQ na pasta `data/`.
+- [x] Análise exploratória detalhada e clustering dos estados operacionais ($s0, s1, \dots$).
 - [ ] Implementação da matriz de probabilidade $P$ e do vetor de estado estacionário em Python (`src/`).
 - [ ] Validação do modelo e cálculo do erro MAPE.
 - [ ] Redação do artigo para o 41º Congresso ANPET (2027).
 
----
-
-## 👩‍💻 Equipe e Instituições
-
-| Papel | Nome | Instituição / Vínculo |
-| :--- | :--- | :--- |
-| **Pesquisadora / Bolsista** | Giulia Dias Granado de Marques | Ciência de Dados — Fatec Rubens Lara |
-| **Orientador** | Prof. Dr. João Paulo Ferreira de Mello | Docente — Fatec Rubens Lara |
-| **Instituição de Ensino** | FATEC Baixada Santista Rubens Lara | CEETEPS / Governo do Estado de São Paulo |
-| **Agência de Fomento** | CEETEPS | Bolsa de Iniciação Científica |
-
----
-
 ## 📖 Referências Fundamentais
-
 1. **ANTAQ.** *Estatístico Aquaviário*. Agência Nacional de Transportes Aquaviários, 2024. Disponível em: <https://www.gov.br/antaq/>.
 2. **AUTORIDADE PORTUÁRIA DE SANTOS.** *Facts & Figures 2025*. Santos: Porto de Santos, 2025.
 3. **AZEVEDO, K. C. F. et al.** *Tempo de atracação dos navios no Porto de Santos: uma aplicação de Regressão Quantílica*. UFF, 2024.
@@ -150,9 +130,3 @@ O cronograma de execução da bolsa de Iniciação Científica do CEETEPS abrang
 5. **PRUYN, J. F. J.; KANA, A. A.; GROENEVELD, W. M.** *Analysis of port waiting time due to congestion by applying Markov chain analysis*. In: *Maritime Supply Chains*. Elsevier, 2020, p. 69–94.
 6. **RODRIGUES, P. E.** *Uma Breve Introdução à Teoria das Filas*. Goiânia: IFG, 2020.
 7. **ROSS, S. M.** *Introduction to Probability Models*. 12. ed. San Diego: Academic Press, 2019.
-
----
-
-## 📜 Licença
-
-Este projeto é de código aberto e está sob a licença [MIT](LICENSE).
